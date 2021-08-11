@@ -16,6 +16,16 @@ const contacts = [
         index: 2,
         name: 'Alex Axel-Rod',
         phone: '911'
+        {
+            index: 3,
+            name: 'Herk',
+            phone: '21-21'
+        },
+        {
+            index: 4,
+            name: 'Van-Man',
+            phone: '86'
+        },
     },
 ]
 
@@ -23,6 +33,7 @@ function Contacts() {
     return (
         <div>
             <button> Your Contacts, Fool </button>
+            <scroll> Hello `${Contacts.index}</scroll>
             {/* <FlatList /> */}
         </div>
     )
